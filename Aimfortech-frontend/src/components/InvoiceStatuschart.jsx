@@ -1,5 +1,5 @@
 import { RadialBarChart, RadialBar } from "recharts";
-import {  DotIcon, EllipsisVertical} from "lucide-react";
+import { DotIcon, EllipsisVertical } from "lucide-react";
 
 const data = [
   { name: "₹175k", uv: 75, fill: "url(#gradient-blue-purple-yellow-blue)" },
@@ -58,26 +58,24 @@ const InvoiceStatusChart = () => {
         <ul className="list-disc pl-4 text-sm space-y-2">
           <li className="flex flex-row justify-between">
             <div className="flex flex-row justify-items-stretch">
-            <DotIcon className="text-purple-500 size-7"/>Paid
+              <DotIcon className="text-purple-500 size-7" />Paid
             </div><span>₹10,000</span>
           </li>
           <li className="flex flex-row justify-between">
             <div className="flex flex-row justify-items-stretch">
-            <DotIcon className="text-blue-500 size-7"/>Unpaid
+              <DotIcon className="text-blue-500 size-7" />Unpaid
             </div> <span>₹50,000</span>
           </li>
           <li className="flex flex-row justify-between">
             <div className="flex flex-row justify-items-stretch">
-            <DotIcon className="text-orange-500 size-7"/>Draft
+              <DotIcon className="text-orange-500 size-7" />Draft
             </div> <span>₹80,000</span>
           </li>
           <li className="flex flex-row justify-between">
             <div className="flex flex-row justify-items-stretch">
-            <DotIcon className="text-red-500 size-7"/>Overdue 
+              <DotIcon className="text-red-500 size-7" />Overdue
             </div> <span>₹150,000</span>
           </li>
-
-        
         </ul>
       </div>
     </div>

@@ -5,7 +5,8 @@ import SummaryCard from "../components/SummaryCard";
 import { summaryCards } from "../data/dummy-data";
 import RevenueChart from "../components/RevenueChart";
 import StatisticsChart from "../components/StatisticsChart";
-import InvoiceStatusChart from "../components/InvoiceStatusChart";
+// import InvoiceStatusChart from "../components/InvoiceStatusChart";
+import InvoiceStatuschart from "../components/InvoiceStatuschart"
 import TopProductList from "../components/TopProductList";
 import TopSalesCategory from "../components/TopSalesCategory";
 import RecentOrders from "../components/RecentOrders";
@@ -45,7 +46,8 @@ const Dashboard = () => {
 
         {/* Invoice, Top Products, Top Categories */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
-          <InvoiceStatusChart />
+          {/* <InvoiceStatusChart /> */}
+          <InvoiceStatuschart/>
           <TopProductList />
           <TopSalesCategory />
         </div>
